@@ -1,9 +1,18 @@
-
+@keyframes breathing {
+    0% { background-color: #fdaeae; }
+    50% { background-color: #a4f4a4; }
+    100% { background-color: #b2dcf6; }
+  }
+  
+  body {
+    animation: breathing 90s infinite;
+  }
+  
 
 ul li{
     position: absolute;
-    border: 1px solid #36cf52;
-    background-color: #63cbff;
+    border: 1px solid #f6fff7;
+    background-color: #fadbeb;
     width: 30px;
     height: 30px;
     list-style: none;
