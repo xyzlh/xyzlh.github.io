@@ -12,7 +12,11 @@
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./font/iconfont.css">
     <link rel="stylesheet" href="./font_2/iconfont.css">
+    <link rel="stylesheet" href="//unpkg.com/valine/dist/Valine.min.css">
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
     <meta name="msapplication-TileColor" content="#da532c" />
+
     <meta name="theme-color" content="#ffffff" />
 <style type="text/css">a{
 text-decoration: none;
@@ -204,9 +208,31 @@ text-decoration: none;
         <img src="./jiaochen5.jpg" alt="推荐教程5" title="推荐教程5" width="800" > </a>
         推荐指数:⭐⭐⭐⭐⭐
    </div>
-   
+ 
+
+
+
+
+   </div>
+
+
+
             <div class="lieBiaoXiang mgt8 baiSe yinYing" style="opacity: 0.98;"/></div>
-            <div class="lieBiaoXiang mgt8 baiSe yinYing"></div>
+            <div class="lieBiaoXiang mgt8 baiSe yinYing">
+              <div class="lieBiaoXiang mgt8 baiSe yinYing"></div>
+              <div id="valine-comments">
+               <script>
+                 new Valine({
+                   el: '#valine-comments',
+                   appId: 'YhjIuWChYLl0VYXPpHlMR1GR4-gzGzoHsz', // 替换为你的Valine App Id
+                   appKey: 'd3RYbzRDC7RCzYp9ab0FmCT1', // 替换为你的Valine App Key
+                   placeholder: '请输入评论...', // 替换为评论框的占位文本
+                 });
+               </script>
+                  </div>
+            </div>
+           
+            </div>
             <div class="lieBiaoXiang mgt8 baiSe yinYing"></div>
             <div class="lieBiaoXiang mgt8 baiSe yinYing"></div>
           </div>
@@ -215,6 +241,9 @@ text-decoration: none;
          
         </div>
       </div>
+      
     </div>
+  
+    
   </body>
 </html>

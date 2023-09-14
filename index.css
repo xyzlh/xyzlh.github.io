@@ -5,7 +5,19 @@
 	/* 盒子模型 改变盒子的宽度的计算方式 */
 	box-sizing: border-box;
 }
-
+.comment {
+	margin-bottom: 20px;
+  }
+  
+  .author {
+	font-size: 16px;
+	font-weight: bold;
+  }
+  
+  .content {
+	font-size: 14px;
+	margin-top: 5px;
+  }
 .container {
 	width: 1000px;
 	height: 500px;
